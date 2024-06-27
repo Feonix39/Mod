@@ -1105,6 +1105,7 @@ namespace XIVLauncher.Windows.ViewModel
                 false,
                 noPlugins,
                 noThird,
+                App.Settings.EnableGcServer,
                 Troubleshooting.GetTroubleshootingJson());
 
             var dalamudOk = false;
